@@ -96,6 +96,15 @@ class LinkedList<T>{
     clear = ()=>{
         this.head=null;
     }
+    toArray= ()=>{
+        const arr:T[] = [];
+        let tail = this.head;
+        while(tail){
+            arr.push(tail.data)
+            tail = tail.next
+        }
+        return arr;
+    }
     
 }
 export default LinkedList;

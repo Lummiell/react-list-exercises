@@ -1,9 +1,9 @@
 import React from 'react';
-import Sets from './Components/Sets'
+import Router from './Router'
 function App() {
   return (
     <>
-    <Sets/>
+    <Router/>
     </>
   );
 }
