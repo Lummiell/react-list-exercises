@@ -1,0 +1,40 @@
+.set{
+    display:flex;
+    align-items: center;
+}
+.set *{
+    margin:10px;
+}
+.set input{
+    width:2rem;
+    height: 2rem;
+}
+.set ol{
+    display:flex;
+    margin:0;
+    padding:0;
+}
+.setItem{
+    margin:0.1rem;
+    padding:0.3rem;
+    list-style-type: none;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+.setItem:hover{
+    background-color:rgb(221, 221, 221);
+}
+.set ol{
+    border-left: 1px solid rgb(165, 165, 165);
+    border-right: 1px solid rgb(165, 165, 165);
+}
+
+.numberList{
+    list-style-type: none;
+    display: flex;
+    margin:0;
+    padding:0;
+}
+.numberList li{
+    margin:0.1rem;
+}
