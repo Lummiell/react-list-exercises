@@ -1,0 +1,20 @@
+.polyText{
+    min-height:100px;
+}
+.addPolyForm{
+    display:flex;
+    align-items: center;
+    font-size: 2rem;
+}
+.addPolyForm input{
+    width:3rem;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 0;
+    margin:5px;
+    font-size: 2rem;
+}
+.addPolyForm #coefficientInput{
+    text-align: right;
+}
